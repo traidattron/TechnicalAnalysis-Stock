@@ -1,0 +1,11 @@
+Done:
+- set of 4 analytis indicator: EMA, AMCD, RSI, MFI, (SAR is not done)
+- DC bases on expert knowledge (just stupid if-else decision)
+- Profitability
+
+Will do:
+- review way to caculate profitability 
+- visualize indicator 
+- pass analysis indicator into SVM, CNN
+- calculate accuracy (in both technical method and financial method)
+- 

@@ -4,8 +4,12 @@ Done:
 - Profitability
 
 Will do:
-- review way to caculate profitability 
-- visualize indicator 
-- pass analysis indicator into SVM, CNN
+- review way to calculate indicator: in process
+- review way to caculate profitability: in process
+- visualize indicator: done
+- pass analysis indicator into DC, SVM, CNN
 - calculate accuracy (in both technical method and financial method)
-- 
+
+Need to update:
+- visualize bar chart demonstrat proportion of trade by single month
+

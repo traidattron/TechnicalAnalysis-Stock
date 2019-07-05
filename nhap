@@ -1,0 +1,50 @@
+ \subsubsection{Giới thiệu độ đo entropy}
+    Trong lí thuyết thông tin, \textit{entropy} miêu tả độ trong sạch của một thu thập dữ liệu tùy ý. Để tính toán được DT, ta cần phân chia các thuộc tính vào các node đánh giá. Vậy làm sao để biết được thuộc tính nào quan trọng, nên đặt ở gốc, thuộc tính nào ở nhánh. Vì thế, ta cần đến độ đo entropy để xác định tầm quan trọng của thuộc tính.
+    
+    \textbf{Công thức tính entropy: }
+    Cho một phân phối xác suất của một biến rời rạc \textit{x} có thể nhận \textit{n} giá trị khác nhau  $x_1$, $x_2$,... $x_n$. Giả sử rằng xác suất để $x$ nhận các giá trị này là $p_i = p (x=x_i)$.
+    
+    Ký hiệu phân phối này là $p = (p_1, p_2,...,p_n)$.
+    
+    Entropy của phân phối này là:
+    
+    \centerline{$H(p) = -\sum_{i=1}^{n}p_ilog_2(p_i)$}
+    
+    Hàm Entropy được biểu diễn dưới dạng đồ thị như sau:
+      \begin{figure}[H]
+    	\centering
+    	\includegraphics[width=6.5in]{fig/entropy.png}
+    	\caption{Đồ thị hàm số entropy}
+    	\captionsource{Nguồn: }{1upnote.me}
+        \label{fig:entropy}
+        \end{figure}
+    
+    Từ đồ thị ta thấy, hàm Entropy sẽ đạt giá trị nhỏ nhất nếu có một giá trị $p_i=1$, đạt giá trị lớn nhất nếu tất cả các $p_i$ bằng nhau.
+    
+    Hàm Entropy càng lớn thì độ ngẫu nhiên của các biến rời rạc càng cao (càng không tinh khiết).
+    \subsubsection{Chi tiết thuật toán}
+    \textbf{Thuật toán ID3: }
+    \begin{enumerate}
+        \item Tính toán entropy cho tập dữ liệu.
+        \item Với tất cả đặc trưng.
+        \begin{enumerate}
+            \item Tính toán entropy của tất cả giá trị.
+            \item  Tính entropy trung bình cho thuộc tính đang thực hiện.
+        \end{enumerate}
+        \item Chọn đặc trưng chó IG cao nhất.
+        \item Lặp lại cho đến khi thu được cây như mong muốn.
+    \end{enumerate}
+    
+  
+    \subsubsection{Mã giả}
+    
+    \subsection{Phương pháp Logistic Regression}
+    \subsubsection{Giới thiệu Logistic Regression}
+    \subsubsection{Ý tưởng}
+    
+    \subsection{Phương pháp vector hỗ trộ SVM}
+    \subsubsection{Giới thiệu SVM}
+    \subsubsection{Ý tưởng thuật toán}
+    \subsubsection{Tham số của SVM}
+    
+    
